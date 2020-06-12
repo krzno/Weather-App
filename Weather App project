@@ -18,7 +18,8 @@ data = json.load(response)
 city = data['city']
 postal = data['postal']
 country = data['country']
-apikey = '9a66a1f9de980c9bf42e72fc48793092'
+# Get API Key 
+apikey = '0'
 
 # Get Weather
 # kelvin to celsius (temp in K - 273.15)
